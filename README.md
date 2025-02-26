@@ -6,8 +6,6 @@ Este projeto é um **Movie List**, uma aplicação simples desenvolvida em **Rea
 ## 🛠️ Tecnologias Utilizadas
 - React.js
 - React Router (para navegação)
-- TailwindCSS (para estilização)
-- Axios (para requisições à API de filmes)
 - Context API (para gerenciamento de estado, se necessário)
 
 ## 📂 Estrutura do Projeto
@@ -42,8 +40,8 @@ npm start
 ✅ Listagem de filmes
 ✅ Barra de pesquisa para buscar títulos
 ✅ Exibição de detalhes do filme
-🔄 Adicionar filmes favoritos
-🔄 Paginação dos resultados
+✅Adicionar filmes favoritos
+✅ Paginação dos resultados
 
 ---
 
