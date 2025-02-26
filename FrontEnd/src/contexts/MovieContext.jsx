@@ -1,4 +1,4 @@
-import { createContext, useContext, useContext,useEffect } from "react";
+import { createContext, useContext, useState, useEffect } from "react";
 
 const MovieContext = createContext();
 
