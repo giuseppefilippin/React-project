@@ -26,7 +26,7 @@ Este projeto é um **Movie List**, uma aplicação simples desenvolvida em **Rea
 ## 🚀 Como Rodar o Projeto
 ### 1️⃣ Clonar o Repositório
 ```bash
-git clone https://github.com/seu-usuario/movie-list.git
+git clone https://github.com/giuseppefilippin/movie-list.git
 cd movie-list
 ```
 ### 2️⃣ Instalar Dependências
