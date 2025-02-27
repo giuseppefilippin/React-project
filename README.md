@@ -1,12 +1,15 @@
 # 🎬 Movie List
 
 ## 📌 Sobre o Projeto
-Este projeto é um **Movie List**, uma aplicação simples desenvolvida em **React** com o objetivo de praticar e aprender os conceitos fundamentais do framework. O aplicativo permite visualizar uma lista de filmes, buscar títulos e exibir detalhes sobre cada filme.
+Este projeto é um **Movie List**, uma aplicação desenvolvida em **React** e **Vite**, que exibe os filmes mais populares do momento em tempo real. O site está hospedado no **GitHub Pages** e pode ser acessado pelo link abaixo:
+
+🔗 **[Acesse o Movie List](https://giuseppefilippin.github.io/movie-list/)**
 
 ## 🛠️ Tecnologias Utilizadas
 - React.js
-- React Router (para navegação)
-- Context API (para gerenciamento de estado, se necessário)
+- Vite
+- API de Filmes (para obter dados em tempo real)
+- GitHub Pages (para hospedagem)
 
 ## 📂 Estrutura do Projeto
 ```
@@ -15,9 +18,10 @@ Este projeto é um **Movie List**, uma aplicação simples desenvolvida em **Rea
 │   ├── components/
 │   ├── pages/
 │   ├── services/
-│   ├── App.js
-│   ├── index.js
+│   ├── App.jsx
+│   ├── main.jsx
 │-- package.json
+│-- vite.config.js
 │-- README.md
 ```
 
@@ -31,19 +35,30 @@ cd movie-list
 ```bash
 npm install
 ```
-### 3️⃣ Iniciar o Projeto
-```bash
-npm start
+### 3️⃣ Configurar API Key
+Crie um arquivo `.env` na raiz do projeto e adicione:
+```env
+VITE_API_KEY=SUA_API_KEY_AQUI
 ```
+### 4️⃣ Iniciar o Projeto
+```bash
+npm run dev
+```
+O projeto estará disponível em `http://localhost:5173/`.
 
-## 📌 Funcionalidades Planejadas
-✅ Listagem de filmes
-✅ Barra de pesquisa para buscar títulos
-✅ Exibição de detalhes do filme
-✅Adicionar filmes favoritos
-✅ Paginação dos resultados
+## 📌 Funcionalidades
+✅ Listagem dos filmes mais populares do momento
+✅ Atualização em tempo real utilizando **API Key**
+✅ Interface responsiva e intuitiva
+✅ Implantação automática no GitHub Pages
+
+## 🚀 Deploy no GitHub Pages
+O projeto está configurado para ser implantado automaticamente no GitHub Pages. Para realizar um novo deploy:
+```bash
+npm run build
+npm run deploy
+```
 
 ---
 
 💡 **Desenvolvido por [Giuseppe Filippin](https://github.com/giuseppefilippin)**
-
